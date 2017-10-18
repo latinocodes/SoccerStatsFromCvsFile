@@ -18,11 +18,11 @@ namespace SoccerStats
             }
         }
 
-        public enum HomeOrAway
-        {
-            Home,
-            Away
-        }
+    }
 
+    public enum HomeOrAway
+    {
+        Home,
+        Away
     }
 }
