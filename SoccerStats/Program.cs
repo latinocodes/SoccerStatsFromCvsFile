@@ -16,7 +16,8 @@ namespace SoccerStats
 
             foreach (var content in fileContent)
             {
-                Console.WriteLine(content);
+                Console.WriteLine("{0} - Game Played: {1} - Team: {2}",content.GameDate, content.HomeORAway, content.TeamName);
+                Console.WriteLine();
             }
 
         }
